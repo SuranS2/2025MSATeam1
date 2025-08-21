@@ -1,0 +1,22 @@
+
+public class Ex03_DataType {
+	public static void main(String[] args) {
+		//int -21~21
+		int num = 1000000;
+		System.out.println("num : " + num);
+		
+//		int num2 = 100000000000; //literal 문제, 넣는다 가 아니고 숫자의 문제
+//		 The literal 100000000000 of type int is out of range
+		int num2 = 10000 ;
+		
+		
+		long num3 =100;
+		// 컴파일러가 캐스팅 해줌
+		// long num3 = (long)100;
+		// 암시적 형변환 - 컴파일러에서 알아서 처리
+		// 작은 타입에 큰 타입 넣는 것은 당연하다
+		
+		// 초보 개발자
+		
+	}
+}

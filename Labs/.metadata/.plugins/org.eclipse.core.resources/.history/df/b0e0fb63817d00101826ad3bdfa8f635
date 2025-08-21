@@ -1,0 +1,10 @@
+
+public class Ex03_DataType {
+	public static void main(String[] args) {
+		//int -21~21
+		int num = 1000000;
+		System.out.println("num : " + num);
+		
+		int num2 = 100000000000; //literal 문제, 넣는다 가 아니고 숫자의 문제
+	}
+}

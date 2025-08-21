@@ -1,0 +1,30 @@
+
+public class Ex03_DataType {
+	public static void main(String[] args) {
+		//int -21~21
+		int num = 1000000;
+		System.out.println("num : " + num);
+		
+//		int num2 = 100000000000; //literal 문제, 넣는다 가 아니고 숫자의 문제
+//		 The literal 100000000000 of type int is out of range
+		int num2 = 10000 ;
+		
+		
+		long num3 =100;
+		// 컴파일러가 캐스팅 해줌
+		// long num3 = (long)100;
+		// 암시적 형변환 - 컴파일러에서 알아서 처리
+		// 작은 타입에 큰 타입 넣는 것은 당연하다
+		
+		// 초보 개발자 주의사항
+//		int num4 = 10000000000L; type 미스매치
+		long num4 = 100000000L; // 해결방법 1 
+		
+		//개발자의 의도적인 명시적 형변환(타입 변환, casting)
+		int num5 = (int)1000000000000L;
+		// 강제 형 변환 시 데이터의 손실 및 이상하게 나옴, 쓰레기 값 고스트값
+		System.out.println("num4 " + num4);
+		
+		
+	}
+}

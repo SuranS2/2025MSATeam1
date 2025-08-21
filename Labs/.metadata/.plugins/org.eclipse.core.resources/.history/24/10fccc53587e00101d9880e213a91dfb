@@ -1,0 +1,25 @@
+
+public class Ex10_Statement {
+
+	public static void main(String[] args) {
+		//반복문 (while , do~while)
+		int i = 10;
+		while( i >= 10) {
+			//반드시 증가감을 명시
+			
+//			--i; // i 는 9부터 출력
+			System.out.println(i);
+			--i; // i 는 10으로 출력하고 9로 변경
+		}
+		//while문 사용해서 1~100까지 합
+		int j = 100;
+		int sum = 0;
+		while(j>=0) {
+			sum += j;
+			j--;
+		}
+		System.out.println(sum);
+
+	}
+
+}

@@ -1,0 +1,11 @@
+
+public class Operation {
+	public static void main(String[] args) {
+		byte b1 = 100;
+		byte b2 = 1;
+		
+		int b3 = b1 + b2++;
+		System.out.println(b3);
+	}
+	
+}

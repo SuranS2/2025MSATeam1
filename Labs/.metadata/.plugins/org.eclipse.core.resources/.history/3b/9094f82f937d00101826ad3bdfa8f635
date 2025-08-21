@@ -1,0 +1,16 @@
+/*
+ 클래스는 설계도 데이터타입
+ 
+ 하나의 물리적인 자바 파일에 여러개의 클래스를 생성할 수 있을까?
+ => 있다, 메인은 1개.
+ 
+ 클래스 안 클래스 이너클래스 잘 안씀(연습과 문법 이해할때만 사용)
+ 
+ */
+
+
+public class Ex04_Object_Variable {
+	public static void main(String[] args) {
+		
+	}
+}

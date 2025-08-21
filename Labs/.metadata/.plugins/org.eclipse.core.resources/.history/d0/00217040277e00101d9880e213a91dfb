@@ -1,0 +1,46 @@
+
+public class Ex05_Operation {
+	public static void main(String[] args) {
+		byte b1 = 100;
+		byte b2 = 1;
+		
+		int b3 = b1 + b2++;
+		
+		System.out.println(b3);
+		System.out.println(b3);
+		
+		long lo = 100000L;
+
+		float fo = 1.2f;
+		
+		float  result = lo + fo;//해결
+		System.out.println(result);
+		
+		if(10==10.0f) {
+			System.out.println(true);
+		}else {
+			System.out.println(false);
+		}
+		
+		if('A' != 65) {
+			//같지 않으면
+			System.out.println("같지 않다 : true");
+		}else {
+			//같다면
+			System.out.println("같다 : false");
+		}
+		
+		//Today Point
+		//연산자 중에서 제어문 역할(조건 , 반복)
+		//삼항연산자
+		
+		int p = 10;
+		int k = -10;
+		
+//		int result5 = 조건식 ? 참 : 거짓;
+		int result5 = (p == k)? p : k ;
+		System.out.println(result5);
+		
+	}
+	
+}
